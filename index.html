@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conservas con Raices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .titulo {
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .texto-formateado {
+            white-space: pre-line;
+            /* respeta saltos de línea */
+        }
+
+        #descripcion,
+        #proposito,
+        #mision,
+        #principios,
+        #valores,
+        #dofa,
+        #metodologia {
+            background-color: #e9f7ef;
+            /* verde muy claro de fondo */
+            border-left: 6px solid #28a745;
+            /* franja verde hoja */
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        #descripcion p,
+        #proposito p,
+        #mision p,
+        #principios p,
+        #valores p,
+        #dofa p,
+        #metodologia p {
+            color: #2e7d32;
+            /* verde más oscuro para texto */
+            font-weight: 500;
+        }
+
+        h3 {
+            color: #2e7d32;
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #descripcion,
+        #proposito,
+        #mision,
+        #principios,
+        #valores,
+        #dofa,
+        #metodologia {
+            background-image: url("./img/fondo.jpg");
+            background-size: cover;
+            /* Que cubra todo */
+            background-position: center;
+            /* Centrada */
+            background-attachment: fixed;
+            /* Hace el efecto parallax */
+            color: white;
+            /* Cambia el texto a blanco si la imagen es oscura */
+            padding: 40px 20px;
+            /* Espaciado interno */
+        }
+
+        .img-fija {
+            width: 100%;
+            /* Ocupa todo el ancho de la columna */
+            max-width: 400px;
+            /* Máximo ancho fijo */
+            height: 250px;
+            /* Altura fija para todas las imágenes */
+            object-fit: cover;
+            /* Ajusta la imagen sin deformarla */
+            border-radius: 10px;
+            /* Bordes redondeados opcionales */
+            display: block;
+            margin: 0 auto;
+            /* Centrar la imagen */
+        }
+    </style>
+</head>
+
+<body class="bg-dark data-bs-spy=" scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0"">
+    <nav class=" navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary fixed-top"
+    data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand titulo" href="#" style="color: #42b748;"><i class="bi bi-leaf-fill"></i>Conservas con
+            Raices<i class="fas fa-apple-alt ms-1"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#descripcion">Descripción</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proposito">Proposito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mision">Misión y Visión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#principios">Principios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#valores">Valores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dofa">DOFA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#metodologia">Metodología</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid mt-5 mb-3" id="descripcion">
+        <h3 class="text-center mb-4">Descripción</h3>
+        <div class="row align-items-center">
+
+            <!-- Columna de texto -->
+            <div class="col-md-6">
+                <p class="text-muted texto-formateado text-dark">
+                    En la ciudad de Popayán, muchas personas en situación de calle enfrentan condiciones de
+                    vulnerabilidad extrema.
+                    La inseguridad alimentaria es una de sus principales problemáticas, agravada por la falta de empleo,
+                    acceso a servicios básicos
+                    y redes de apoyo familiar o institucional. A pesar de esfuerzos por parte de entidades públicas y
+                    organizaciones sociales,
+                    la cobertura es limitada y no garantiza una alimentación digna, estable ni nutritiva.
+                </p>
+                <p class="text-muted texto-formateado">
+                    Esto presentaría las siguientes situaciones en la sociedad:
+                <ul class="text-dark">
+                    <li>Aumento visible de personas sin hogar que piden comida en las calles.</li>
+                    <li>Desnutrición, problemas de salud y bajo nivel de bienestar entre la población habitante de
+                        calle.</li>
+                    <li>Desecho innecesario de frutas y verduras en plazas de mercado y hogares.</li>
+                    <li>Ausencia de soluciones sostenibles para cubrir las necesidades alimenticias de este grupo
+                        vulnerable.</li>
+                </ul>
+                </p>
+            </div>
+
+            <!-- Columna de imagen -->
+            <div class="col-md-6 text-center">
+                <img src="./img/descripcion.jpg" class="img-fluid rounded shadow img-fija"
+                    alt="Imagen ilustrativa de conservas">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mb-5" id="proposito">
+        <h3 class="text-center mb-4">Propósito</h3>
+        <div class="row align-items-center">
+
+            <!-- Columna de la imagen -->
+            <div class="col-md-6 text-center">
+                <img src="img/proposito.jpg" alt="Imagen propósito" class="img-fluid rounded shadow img-fija">
+            </div>
+
+            <!-- Columna del texto -->
+            <div class="col-md-6">
+                <p class="text-muted texto-formateado">
+                    Brindar una solución alimentaria práctica, saludable y solidaria para la población habitante de
+                    calle en
+                    Popayán, mediante la elaboración y distribución de conservas de frutas y verduras, a partir del
+                    aprovechamiento de alimentos donados, con el fin de reducir el desperdicio, promover la inclusión
+                    social y
+                    fortalecer la conciencia comunitaria durante el segundo semestre de 2025.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mb-3" id="mision">
+        <div class="row">
+            <!-- Columna Misión -->
+            <div class="col-md-6">
+                <section>
+                    <h3 class="text-center">Misión</h3>
+                    <p class="text-muted texto-formateado">
+                        Elaborar conservas de frutas y verduras mediante donaciones y trabajo voluntario, para brindar
+                        soluciones alimentarias a personas en situación de calle en Popayán, promoviendo la economía
+                        circular, el cuidado del ambiente y la inclusión social.
+                    </p>
+                    <!-- Imagen para Misión -->
+                    <div class="text-center">
+                        <img src="./img/mision.jpg" alt="Imagen Misión" class="img-fluid rounded mt-2 img-fija"
+                            style="max-height:250px;">
+                    </div>
+                </section>
+            </div>
+
+            <!-- Columna Visión -->
+            <div class="col-md-6">
+                <section>
+                    <h3 class="text-center">Visión</h3>
+                    <p class="text-muted texto-formateado">
+                        Ser un referente en Popayán para el segundo semestre de 2025 como un proyecto solidario,
+                        sostenible y comunitario que transforma el desperdicio de frutas y verduras en alimento digno y
+                        nutritivo para la población habitante de calle, generando conciencia social y compromiso
+                        ciudadano.
+                    </p>
+                    <!-- Imagen para Visión -->
+                    <div class="text-center">
+                        <img src="./img/vision.jpg" alt="Imagen Visión" class="img-fluid rounded mt-2 img-fija"
+                            style="max-height:250px;">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mb-3" id="principios">
+        <h3 class="text-center">Principios</h3>
+        <div class="row align-items-center">
+            <!-- Columna Texto -->
+            <div class="col-md-6">
+                <ol class="text-muted">
+                    <li><strong>Solidaridad:</strong> Actuar desde la empatía y el compromiso con los más vulnerables.
+                    </li>
+                    <li><strong>Responsabilidad social:</strong> Promover acciones que generen impacto positivo en la
+                        comunidad.</li>
+                    <li><strong>Sostenibilidad:</strong> Usar recursos de forma eficiente, evitando el desperdicio de
+                        alimentos.</li>
+                    <li><strong>Colaboración:</strong> Fomentar el trabajo conjunto entre voluntarios, instituciones y
+                        comunidad.</li>
+                    <li><strong>Inclusión:</strong> Reconocer la dignidad y los derechos de todas las personas, sin
+                        discriminación.</li>
+                </ol>
+            </div>
+
+            <!-- Columna Imagen -->
+            <div class="col-md-6 text-center">
+                <img src="./img/principios.jpg" alt="Imagen Principios" class="img-fluid rounded img-fija"
+                    style="max-height:300px;">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mb-3" id="valores">
+        <h3 class="text-center">Valores</h3>
+        <div class="row align-items-center">
+            <!-- Columna Imagen -->
+            <div class="col-md-6 text-center">
+                <img src="./img/valores.jpg" alt="Imagen Valores" class="img-fluid rounded img-fija"
+                    style="max-height:300px;">
+            </div>
+
+            <!-- Columna Texto -->
+            <div class="col-md-6">
+                <ol class="text-muted">
+                    <li><strong>Compromiso:</strong> Cumplimos con nuestra labor con entrega y constancia.</li>
+                    <li><strong>Empatía:</strong> Nos ponemos en el lugar del otro para entender sus necesidades.</li>
+                    <li><strong>Transparencia:</strong> Actuamos con honestidad en cada etapa del proyecto.</li>
+                    <li><strong>Innovación:</strong> Buscamos formas creativas de enfrentar desafíos sociales.</li>
+                    <li><strong>Resiliencia:</strong> Superamos dificultades para seguir ayudando a quienes más lo
+                        necesitan.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mb-3" id="dofa">
+        <h3 class="text-center mb-4">Matriz DOFA</h3>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-success text-center">
+                    <tr>
+                        <th style="width: 20%;">FODA</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Fortalezas (F)</strong></td>
+                        <td>
+                            - Proyecto con enfoque social y solidario, genera alto impacto comunitario.<br>
+                            - Uso de materias primas donadas o recicladas, bajo costo de producción.<br>
+                            - Posibilidad de conservación prolongada de los alimentos.<br>
+                            - Participación de jóvenes, voluntarios y actores comunitarios.<br>
+                            - Adaptable a distintos espacios (cocinas comunitarias, colegios, etc.).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Oportunidades (O)</strong></td>
+                        <td>
+                            - Apoyo de instituciones educativas, ONGs, fundaciones y redes solidarias.<br>
+                            - Acceso a fondos de emprendimiento social o convocatorias públicas.<br>
+                            - Posibilidad de alianzas con plazas de mercado, supermercados o restaurantes.<br>
+                            - Sensibilización social sobre el desperdicio de alimentos y la pobreza.<br>
+                            - Fortalecimiento de la economía circular y cultura ambiental.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Debilidades (D)</strong></td>
+                        <td>
+                            - Falta de experiencia inicial en producción y conservación de alimentos.<br>
+                            - Posibles limitaciones técnicas (equipos, espacio, transporte).<br>
+                            - Necesidad de capacitación en manipulación higiénica y normativas sanitarias.<br>
+                            - Dependencia de donaciones constantes para mantener la producción.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Amenazas (A)</strong></td>
+                        <td>
+                            - Riesgo de rechazo o estigmatización hacia la población beneficiaria.<br>
+                            - Inestabilidad en la disponibilidad de frutas y verduras donadas.<br>
+                            - Falta de respaldo institucional si no se articula con entes gubernamentales.<br>
+                            - Desinterés o falta de compromiso de voluntarios a largo plazo.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-3" id="metodologia">
+        <h3 class="text-center">Metodología</h3>
+        <div class="row align-items-center">
+            <!-- Columna Texto -->
+            <div class="col-md-7">
+                <p class="text-muted texto-formateado">
+                    La metodología del proyecto “Conservas Solidarias Popayán” se estructura en fases secuenciales que
+                    permiten garantizar la calidad del proceso y el cumplimiento de los objetivos. En primer lugar,
+                    se realiza la capacitación de los voluntarios en temas de higiene, manipulación y conservación de
+                    alimentos, con el fin de asegurar que todo el proceso cumpla con las normas básicas de salubridad.
+                    Posteriormente, se lleva a cabo la gestión de donaciones, contactando plazas de mercado,
+                    supermercados
+                    y hogares, para recolectar frutas y verduras en buen estado que servirán como materia prima.
+                    <br><br>
+                    En una tercera fase se ejecuta la clasificación y preparación de los alimentos, que incluye
+                    selección,
+                    lavado, desinfección, pelado y corte de los productos. Luego, en la etapa de producción, se procede
+                    a la
+                    cocción de frutas o verduras, la preparación de almíbar, vinagre o salmuera según la receta, y el
+                    envasado
+                    en frascos esterilizados, asegurando un sellado hermético y el etiquetado con información básica y
+                    un
+                    mensaje solidario.
+                    <br><br>
+                    Los productos terminados pasan a la fase de almacenamiento, en un espacio limpio y seco hasta el
+                    momento
+                    de su distribución. Después se desarrolla la entrega organizada a los habitantes de calle en puntos
+                    estratégicos de Popayán, garantizando un trato digno y respetuoso mediante un protocolo de atención
+                    al
+                    beneficiario.
+                    <br><br>
+                    De forma transversal se ejecutan campañas de sensibilización comunitaria, tanto en instituciones
+                    educativas
+                    como en redes sociales, con el fin de concienciar sobre la reducción del desperdicio de alimentos y
+                    la
+                    importancia de la solidaridad. Finalmente, se implementa una fase de evaluación, donde se revisan
+                    indicadores como el número de conservas elaboradas, personas beneficiadas, cantidad de alimentos
+                    rescatados
+                    y el impacto social generado, permitiendo retroalimentar y fortalecer el proyecto.
+                </p>
+            </div>
+
+            <!-- Columna Imagen -->
+            <div class="col-md-5 text-center">
+                <img src="./img/metodologia.jpg" alt="Imagen Metodología" class="img-fluid rounded img-fija"
+                    style="max-height:400px;">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
